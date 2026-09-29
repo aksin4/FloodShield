@@ -1,0 +1,258 @@
+{
+ "n": 16,
+ "res": 60,
+ "froehlich": {
+  "b_avg": 140.3,
+  "tf_h": 2.48,
+  "qp_1995": 3995,
+  "volume_mcm": 92.01,
+  "hb": 21.7
+ },
+ "members": [
+  {
+   "id": "E00",
+   "wse0": 57.99,
+   "breach_width": 270,
+   "breach_bottom": 42.0,
+   "tf_h": 2.86,
+   "manning": 0.066,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 22502,
+   "area_km2": 38.47
+  },
+  {
+   "id": "E01",
+   "wse0": 58.09,
+   "breach_width": 188,
+   "breach_bottom": 42.0,
+   "tf_h": 2.24,
+   "manning": 0.08,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 18925,
+   "area_km2": 39.31
+  },
+  {
+   "id": "E02",
+   "wse0": 56.13,
+   "breach_width": 302,
+   "breach_bottom": 42.0,
+   "tf_h": 0.58,
+   "manning": 0.072,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 26264,
+   "area_km2": 28.23
+  },
+  {
+   "id": "E03",
+   "wse0": 56.3,
+   "breach_width": 294,
+   "breach_bottom": 42.0,
+   "tf_h": 1.68,
+   "manning": 0.046,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 22029,
+   "area_km2": 25.08
+  },
+  {
+   "id": "E04",
+   "wse0": 58.51,
+   "breach_width": 140,
+   "breach_bottom": 42.0,
+   "tf_h": 1.31,
+   "manning": 0.056,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 16429,
+   "area_km2": 31.05
+  },
+  {
+   "id": "E05",
+   "wse0": 59.19,
+   "breach_width": 119,
+   "breach_bottom": 42.0,
+   "tf_h": 1.57,
+   "manning": 0.076,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 15137,
+   "area_km2": 40.38
+  },
+  {
+   "id": "E06",
+   "wse0": 56.91,
+   "breach_width": 262,
+   "breach_bottom": 42.0,
+   "tf_h": 2.45,
+   "manning": 0.069,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 19801,
+   "area_km2": 29.83
+  },
+  {
+   "id": "E07",
+   "wse0": 57.29,
+   "breach_width": 94,
+   "breach_bottom": 42.0,
+   "tf_h": 0.89,
+   "manning": 0.044,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 10433,
+   "area_km2": 15.0
+  },
+  {
+   "id": "E08",
+   "wse0": 58.92,
+   "breach_width": 228,
+   "breach_bottom": 42.0,
+   "tf_h": 2.66,
+   "manning": 0.061,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 23320,
+   "area_km2": 46.48
+  },
+  {
+   "id": "E09",
+   "wse0": 57.55,
+   "breach_width": 239,
+   "breach_bottom": 42.0,
+   "tf_h": 1.91,
+   "manning": 0.048,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 21950,
+   "area_km2": 30.07
+  },
+  {
+   "id": "E10",
+   "wse0": 56.46,
+   "breach_width": 136,
+   "breach_bottom": 42.0,
+   "tf_h": 2.08,
+   "manning": 0.051,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 12121,
+   "area_km2": 18.57
+  },
+  {
+   "id": "E11",
+   "wse0": 56.76,
+   "breach_width": 340,
+   "breach_bottom": 42.0,
+   "tf_h": 1.17,
+   "manning": 0.075,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 28668,
+   "area_km2": 32.64
+  },
+  {
+   "id": "E12",
+   "wse0": 55.82,
+   "breach_width": 324,
+   "breach_bottom": 42.0,
+   "tf_h": 0.99,
+   "manning": 0.059,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 24972,
+   "area_km2": 25.66
+  },
+  {
+   "id": "E13",
+   "wse0": 58.47,
+   "breach_width": 87,
+   "breach_bottom": 42.0,
+   "tf_h": 0.75,
+   "manning": 0.064,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 11113,
+   "area_km2": 25.27
+  },
+  {
+   "id": "E14",
+   "wse0": 55.59,
+   "breach_width": 161,
+   "breach_bottom": 42.0,
+   "tf_h": 2.78,
+   "manning": 0.053,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 11221,
+   "area_km2": 16.89
+  },
+  {
+   "id": "E15",
+   "wse0": 57.78,
+   "breach_width": 200,
+   "breach_bottom": 42.0,
+   "tf_h": 1.96,
+   "manning": 0.041,
+   "inflow_peak": 0.0,
+   "t_end_h": 10.0,
+   "saveint_s": 36000,
+   "peak_q": 19584,
+   "area_km2": 26.96
+  }
+ ],
+ "bounds": [
+  [
+   22.73186863164893,
+   70.75670575820024
+  ],
+  [
+   22.952843340016848,
+   70.99355370987715
+  ]
+ ],
+ "png": "probability.png",
+ "area_any_km2": 47.46,
+ "area_p50_km2": 29.99,
+ "area_p90_km2": 17.26,
+ "buildings_p50": 4491,
+ "buildings_any": 14614,
+ "buildings_p90": 1168,
+ "people_p50": 28465,
+ "people_any": 54622,
+ "ranges": {
+  "breach_width": [
+   87,
+   340
+  ],
+  "tf_h": [
+   0.58,
+   2.86
+  ],
+  "manning": [
+   0.041,
+   0.08
+  ],
+  "wse0": [
+   55.59,
+   59.19
+  ]
+ }
+}

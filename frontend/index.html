@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FloodShield — Dam-Break Inundation & Impact Assessment</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2 4 7v8c0 7 5 12 12 15 7-3 12-8 12-15V7z' fill='%230ea5c6'/%3E%3Cpath d='M8 17c2.5-2 5.5-2 8 0s5.5 2 8 0' stroke='white' stroke-width='2.4' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css?v=9">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <svg class="logo" viewBox="0 0 32 32" aria-label="FloodShield logo" fill="none">
+      <path d="M16 2.5 4.5 7.2v7.6c0 6.9 4.7 11.9 11.5 14.7 6.8-2.8 11.5-7.8 11.5-14.7V7.2z" stroke="currentColor" stroke-width="2"/>
+      <path d="M8.5 16.5c2.5-2 5-2 7.5 0s5 2 7.5 0M8.5 21c2.5-2 5-2 7.5 0s5 2 7.5 0" stroke="var(--accent)" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <div>
+      <div class="brand-name">FloodShield</div>
+      <div class="brand-sub">Dam-Break Hydrodynamic Inundation &amp; Impact Assessment</div>
+    </div>
+  </div>
+  <div class="site-chip" id="siteChip">Machhu-2 Dam · Machchhu River · Morbi, Gujarat</div>
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="scenarios">Scenarios</button>
+    <button class="tab" data-tab="custom">Run simulation</button>
+    <button class="tab" data-tab="compare">Compare</button>
+    <button class="tab" data-tab="uncertainty">Uncertainty</button>
+    <button class="tab" data-tab="sph">SPH near-field</button>
+    <button class="tab" data-tab="method">Method &amp; data</button>
+  </nav>
+</header>
+
+<main class="layout">
+  <aside class="panel" id="panel">
+    <!-- SCENARIOS -->
+    <section class="pane active" id="pane-scenarios">
+      <h2>Breach scenarios</h2>
+      <p class="muted">Pre-computed LISFLOOD-FP runs. Every input is a stated assumption; every number shown is a model output.</p>
+      <div id="scenarioList" class="scen-list"></div>
+      <div class="card" id="scenBasis"></div>
+      <h3>Breach outflow hydrograph</h3>
+      <div class="chart-box"><canvas id="hydroChart"></canvas></div>
+    </section>
+
+    <!-- CUSTOM -->
+    <section class="pane" id="pane-custom">
+      <h2>Run a new simulation</h2>
+      <p class="muted">Set the breach assumptions and run the 2D hydrodynamic model live (60 m grid, about 1–2 min).</p>
+      <div class="form">
+        <label>Reservoir level at failure <output id="o_wse0"></output>
+          <input type="range" id="wse0" min="50" max="63.7" step="0.1" value="57.3"></label>
+        <label>Final breach width <output id="o_breach_width"></output>
+          <input type="range" id="breach_width" min="0" max="1200" step="10" value="140"></label>
+        <label>Breach bottom elevation <output id="o_breach_bottom"></output>
+          <input type="range" id="breach_bottom" min="40" max="54" step="0.5" value="42"></label>
+        <label>Breach formation time <output id="o_tf_h"></output>
+          <input type="range" id="tf_h" min="0.25" max="6" step="0.25" value="2.5"></label>
+        <label>Flood inflow peak (0 = sunny-day failure) <output id="o_inflow_peak"></output>
+          <input type="range" id="inflow_peak" min="0" max="20000" step="500" value="0"></label>
+        <label>Floodplain Manning's n <output id="o_manning"></output>
+          <input type="range" id="manning" min="0.03" max="0.1" step="0.005" value="0.06"></label>
+        <label>Simulation duration <output id="o_t_end_h"></output>
+          <input type="range" id="t_end_h" min="3" max="10" step="1" value="6"></label>
+      </div>
+      <div class="reco card" id="reco"></div>
+      <div class="chart-box"><canvas id="previewChart"></canvas></div>
+      <div class="kv" id="previewStats"></div>
+      <button class="btn-primary" id="runBtn">Run simulation</button>
+      <div class="job" id="jobStatus" hidden></div>
+    </section>
+
+    <!-- COMPARE -->
+    <section class="pane" id="pane-compare">
+      <h2>Scenario comparison</h2>
+      <p class="muted">Same terrain, same solver, different breach assumptions.</p>
+      <div class="chart-box tall"><canvas id="compareChart"></canvas></div>
+      <div class="table-wrap"><table class="tbl" id="compareTable"></table></div>
+    </section>
+
+    <!-- UNCERTAINTY -->
+    <section class="pane" id="pane-uncertainty">
+      <h2>Uncertainty ensemble</h2>
+      <p class="muted">Breach parameters are never known exactly. The model was run many times with Latin-hypercube samples of breach width, formation time, reservoir level and roughness. The map shows the fraction of runs that flooded each cell.</p>
+      <div id="uncBody" class="muted">Ensemble is still computing…</div>
+    </section>
+
+    <!-- SPH -->
+    <section class="pane" id="pane-sph">
+      <h2>SPH near-field breach module</h2>
+      <p class="muted">Smoothed Particle Hydrodynamics (weakly-compressible SPH, Wendland kernel, δ-SPH) resolves the violent vertical-plane flow right at the breach, where depth-averaged models are least accurate. The 20 km valley routing uses the 2D shallow-water solver.</p>
+      <h3>Benchmark: Martin &amp; Moyce (1952)</h3>
+      <div class="chart-box"><canvas id="sphChart"></canvas></div>
+      <div class="kv" id="sphStats"></div>
+      <h3>Particle view</h3>
+      <div class="seg" id="sphSeg" style="margin-bottom:8px"><button data-k="validation" class="on">Benchmark column</button><button data-k="machhu_section">Machhu-2 breach section</button></div>
+      <canvas id="sphCanvas" width="700" height="300" style="width:100%;background:#0a0f14;border:1px solid var(--border);border-radius:8px"></canvas>
+      <div class="muted small" id="sphCaption"></div>
+    </section>
+
+    <!-- METHOD -->
+    <section class="pane" id="pane-method">
+      <h2>How FloodShield works</h2>
+      <ol class="pipeline">
+        <li><b>Terrain</b> — Copernicus GLO-30 DEM, reprojected to UTM 42N (30 m / 60 m grids).</li>
+        <li><b>Reservoir</b> — official 2021 elevation–capacity curve of Machhu-2 (CWC/NHP sedimentation survey): 92.0 Mm³ at FRL 57.30 m.</li>
+        <li><b>Breach</b> — time-progressive trapezoidal breach (DAMBRK / HEC-RAS method) with reservoir mass balance; defaults from Froehlich (2008).</li>
+        <li><b>Near-field SPH</b> — 2D WCSPH solver (own code) validated against the Martin &amp; Moyce (1952) collapsing-column experiment; applied to a vertical section through the breach.</li>
+        <li><b>Hydrodynamics</b> — LISFLOOD-FP 8.1, 2D local-inertial shallow-water solver (Bates et al., 2010) routing the breach hydrograph over the DEM.</li>
+        <li><b>Impact</b> — max depth, velocity, arrival time and Defra FD2320 hazard rating intersected with 95k building footprints, OSM roads/rail/facilities and WorldPop 2020 population.</li>
+        <li><b>Satellite check</b> — Sentinel-1 SAR before/after change detection (Python via Planetary Computer, plus a Google Earth Engine script) for the Aug 2024 Machhu release.</li>
+        <li><b>Outputs</b> — GeoTIFF, GeoJSON, Shapefile and KML for each scenario.</li>
+      </ol>
+      <h3>Verification</h3>
+      <div id="verif" class="muted small">Loading…</div>
+      <h3>Key assumptions &amp; limits</h3>
+      <ul class="muted small">
+        <li>Copernicus DEM is a surface model (includes buildings/trees) and does not resolve the riverbed; depths near the channel are approximate.</li>
+        <li>Spillway assumed to pass flood inflow; breach outflow added on top (conservative).</li>
+        <li>Uniform floodplain Manning's n; no structures/levees beyond those in the DEM.</li>
+        <li>Population exposure = WorldPop 2020 people in flooded cells (not casualties).</li>
+      </ul>
+      <h3>Data sources</h3>
+      <ul class="small src">
+        <li><a target="_blank" rel="noopener" href="https://registry.opendata.aws/copernicus-dem/">Copernicus DEM GLO-30 (AWS Open Data)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://nhp.mowr.gov.in/docs/NHP/Sedimentation%20Studies/Report/1062/P34320_WRD_Survey%20report_Machhu%202_Rev%204%20with%20annexures.pdf">Machhu-2 sedimentation survey 2021 (NHP)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://guj-nwrws.gujarat.gov.in/showpage.aspx?contentid=2038&lang=english">Machchhu-2 salient features (Gujarat WRD)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://www.seamlesswave.com/LISFLOOD8.0.html">LISFLOOD-FP 8</a></li>
+        <li><a target="_blank" rel="noopener" href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/latest/performing-a-dam-break-study-with-hec-ras/estimating-dam-breach-parameters/estimating-breach-parameters">Froehlich breach equations (USACE HEC)</a></li>
+        <li><a target="_blank" rel="noopener" href="https://github.com/microsoft/GlobalMLBuildingFootprints">Microsoft Global ML Building Footprints</a> · <a target="_blank" rel="noopener" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · <a target="_blank" rel="noopener" href="https://www.worldpop.org/">WorldPop</a></li>
+        <li><a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/1979_Machchhu_dam_failure">1979 Machchhu dam failure</a></li>
+      </ul>
+    </section>
+  </aside>
+
+  <section class="mapwrap">
+    <div id="map"></div>
+    <div class="map-ctrl card">
+      <div class="seg" id="layerSeg">
+        <button data-layer="depth" class="on">Depth</button>
+        <button data-layer="arrival">Arrival</button>
+        <button data-layer="velocity">Velocity</button>
+        <button data-layer="hazard">Hazard</button>
+      </div>
+      <label class="chk"><input type="checkbox" id="chkRoads" checked> Roads cut (&gt;30 cm)</label>
+      <label class="chk"><input type="checkbox" id="chkPlaces" checked> Settlements</label>
+      <label class="chk"><input type="checkbox" id="chkFac" checked> Facilities</label>
+      <label class="chk" title="Sentinel-1 SAR change detection, 21 Aug vs 2 Sep 2024"><input type="checkbox" id="chkSar"> Sentinel-1 observed (Sep 2024)</label>
+    </div>
+    <div class="legend card" id="legend"></div>
+    <div class="timeline card" id="timeline">
+      <button id="playBtn" aria-label="Play animation">▶</button>
+      <input type="range" id="frameSlider" min="0" max="0" value="0">
+      <span id="frameLabel" class="mono">Max envelope</span>
+    </div>
+    <div class="downloads card" id="downloads"></div>
+  </section>
+</main>
+
+<footer class="stats" id="stats"></footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="app.js?v=9"></script>
+</body>
+</html>

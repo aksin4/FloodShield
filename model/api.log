@@ -1,0 +1,327 @@
+INFO:     Started server process [2569]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     169.254.0.22:50680 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:55688 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:43106 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:36820 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:57006 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:60600 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:38846 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:48826 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:36966 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36976 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:36978 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36988 - "GET /api/scenario/S0_release HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36998 - "GET /outputs/scenarios/S0_release/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37004 - "GET /outputs/scenarios/S0_release/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58090 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:59338 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:44848 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:55020 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:49426 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:49436 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49442 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49448 - "GET /api/scenario/S0_release HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49462 - "GET /outputs/scenarios/S0_release/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49696 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:38058 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:42060 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:59002 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:37506 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:46014 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37196 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:40486 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:57592 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:60016 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:44356 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:49048 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49060 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49062 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49078 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:49094 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49104 - "GET /api/scenario/S0_release HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49116 - "GET /outputs/scenarios/S0_release/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49122 - "GET /outputs/scenarios/S0_release/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:54418 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:54420 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:54426 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:54436 - "GET /api/scenario/S0_release HTTP/1.1" 200 OK
+INFO:     169.254.0.22:54444 - "GET /outputs/scenarios/S0_release/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54276 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53768 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53776 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:53782 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53796 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53808 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53816 - "GET /api/scenario/S0_release HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53826 - "GET /outputs/scenarios/S0_release/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53828 - "GET /outputs/scenarios/S0_release/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:42712 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:42726 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:42732 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:42748 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:42762 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:42766 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:42778 - "GET /api/scenario/S0_release HTTP/1.1" 200 OK
+INFO:     169.254.0.22:42784 - "GET /outputs/scenarios/S0_release/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37260 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49708 - "POST /api/simulate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47878 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47892 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35404 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35414 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43428 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40078 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:43432 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59178 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59194 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49170 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49186 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50124 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     169.254.0.22:54046 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50136 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40096 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40104 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44290 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44300 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     169.254.0.22:35278 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51252 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51268 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35932 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35938 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60422 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60424 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     169.254.0.22:57734 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45482 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45486 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50394 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50406 - "GET /api/scenario/C3a98de8 HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:45036 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:55972 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55980 - "GET /api/scenario/C3a98de8 HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:47434 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:42938 - "GET /api/job/C3a98de8 HTTP/1.1" 200 OK
+INFO:     169.254.0.22:48974 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:48984 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:48992 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:49002 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49016 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49032 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49042 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:49044 - "GET /outputs/scenarios/S1_moderate/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33896 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:33900 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33922 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33932 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:33908 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33934 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33944 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33956 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:45262 - "GET /outputs/scenarios/S1_moderate/arrival.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:48842 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:43476 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:37774 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:45566 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:47688 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:46952 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:36630 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:34288 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:34302 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:34306 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:34322 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:34334 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:34350 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:34352 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:34366 - "GET /outputs/scenarios/S1_moderate/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43300 - "GET /outputs/scenarios/S1_moderate/frames/f020.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43302 - "GET /outputs/scenarios/S1_moderate/frames/f019.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43304 - "GET /outputs/scenarios/S1_moderate/frames/f018.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43316 - "GET /outputs/scenarios/S1_moderate/frames/f016.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43318 - "GET /outputs/scenarios/S1_moderate/frames/f017.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43326 - "GET /outputs/scenarios/S1_moderate/frames/f015.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43336 - "GET /outputs/scenarios/S1_moderate/frames/f014.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43344 - "GET /outputs/scenarios/S1_moderate/frames/f013.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43352 - "GET /outputs/scenarios/S1_moderate/frames/f012.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33270 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:39860 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:39874 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:39880 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:39888 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36506 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36508 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36516 - "POST /api/simulate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36522 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36524 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59452 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59466 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59474 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53492 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53504 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53514 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:53530 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47172 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47182 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47186 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47198 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:39196 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:39198 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:39212 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:50106 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:50118 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:50130 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:50138 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:54366 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:42690 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:46696 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:46704 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:46710 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:38022 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:38034 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:38046 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:35070 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:35086 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:35098 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36390 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:36402 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36406 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36416 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:36428 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:46384 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:46396 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:46406 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47414 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47420 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47432 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47444 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:44142 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:44158 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:44160 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:44174 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33114 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33124 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33136 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55518 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55528 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55536 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55542 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55544 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55560 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:55572 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55578 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55592 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55598 - "GET /outputs/scenarios/S1_moderate/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55614 - "GET /api/job/Cf39713a HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59490 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:47512 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47526 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47532 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:47536 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47550 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47560 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47576 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:47588 - "GET /outputs/scenarios/S1_moderate/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:43490 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:49932 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:58764 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:56462 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:34412 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:52236 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:52246 - "GET /api/uncertainty HTTP/1.1" 404 Not Found
+INFO:     169.254.0.22:52262 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:52264 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:52266 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:52268 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:52270 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:52286 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:52300 - "GET /outputs/scenarios/S1_moderate/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58286 - "GET /outputs/scenarios/S1_moderate/frames/f018.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58288 - "GET /outputs/scenarios/S1_moderate/frames/f020.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58290 - "GET /outputs/scenarios/S1_moderate/frames/f019.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58302 - "GET /outputs/scenarios/S1_moderate/frames/f017.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58310 - "GET /outputs/scenarios/S1_moderate/frames/f013.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58312 - "GET /outputs/scenarios/S1_moderate/frames/f016.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58318 - "GET /outputs/scenarios/S1_moderate/frames/f014.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58320 - "GET /outputs/scenarios/S1_moderate/frames/f015.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58336 - "GET /outputs/scenarios/S1_moderate/frames/f012.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58348 - "GET /outputs/scenarios/S1_moderate/frames/f011.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:58352 - "GET /outputs/scenarios/S1_moderate/frames/f010.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37066 - "GET /api/uncertainty HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37068 - "GET /outputs/scenarios/S1_moderate/frames/f002.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37070 - "GET /outputs/scenarios/S1_moderate/frames/f005.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37072 - "GET /outputs/scenarios/S1_moderate/frames/f001.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37078 - "GET /outputs/scenarios/S1_moderate/frames/f000.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37092 - "GET /outputs/scenarios/S1_moderate/frames/f009.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37106 - "GET /outputs/scenarios/S1_moderate/frames/f006.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37114 - "GET /outputs/scenarios/S1_moderate/frames/f004.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37122 - "GET /outputs/scenarios/S1_moderate/frames/f003.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37128 - "GET /outputs/scenarios/S1_moderate/frames/f008.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:37144 - "GET /outputs/scenarios/S1_moderate/frames/f007.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:38856 - "GET /api/uncertainty HTTP/1.1" 200 OK
+INFO:     169.254.0.22:38862 - "GET /api/uncertainty HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33186 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33202 - "GET /api/uncertainty HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33218 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33232 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33248 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33262 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33266 - "GET /outputs/scenarios/S1_moderate/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33268 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33274 - "GET /api/scenario/S0_release HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33276 - "GET /outputs/scenarios/S0_release/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:33292 - "GET /outputs/scenarios/S0_release/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40726 - "GET /api/scenario/S2_severe HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40736 - "GET /outputs/scenarios/S2_severe/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40742 - "GET /outputs/scenarios/S2_severe/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40756 - "GET /api/uncertainty HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40764 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40770 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40772 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40782 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40788 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40798 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:40808 - "GET /outputs/scenarios/S1_moderate/depth.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59208 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59224 - "GET /api/uncertainty HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59238 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59248 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59256 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59258 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59264 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:59266 - "GET /outputs/uncertainty/probability.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:55802 - "GET /outputs/scenarios/S0_release/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53406 - "GET /outputs/scenarios/S0_release/frames/f018.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53416 - "GET /outputs/scenarios/S0_release/frames/f020.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53422 - "GET /outputs/scenarios/S0_release/frames/f017.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53426 - "GET /outputs/scenarios/S0_release/frames/f016.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53442 - "GET /outputs/scenarios/S0_release/frames/f015.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53450 - "GET /outputs/scenarios/S0_release/frames/f009.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53460 - "GET /outputs/scenarios/S0_release/frames/f013.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53468 - "GET /outputs/scenarios/S0_release/frames/f011.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53476 - "GET /outputs/scenarios/S0_release/frames/f012.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53482 - "GET /outputs/scenarios/S0_release/frames/f014.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53488 - "GET /outputs/scenarios/S0_release/frames/f010.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53496 - "GET /outputs/scenarios/S0_release/frames/f006.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53510 - "GET /outputs/scenarios/S0_release/frames/f007.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53526 - "GET /outputs/scenarios/S0_release/frames/f004.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53530 - "GET /outputs/scenarios/S0_release/frames/f005.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53546 - "GET /outputs/scenarios/S0_release/frames/f003.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53550 - "GET /outputs/scenarios/S0_release/frames/f001.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53566 - "GET /outputs/scenarios/S0_release/frames/f002.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53568 - "GET /outputs/scenarios/S0_release/frames/f000.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53570 - "GET /outputs/scenarios/S0_release/frames/f008.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:53584 - "GET /outputs/scenarios/S0_release/frames/f019.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:41864 - "GET /outputs/scenarios/S0_release/velocity.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:41880 - "GET /outputs/scenarios/S0_release/hazard.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:42192 - "GET /outputs/scenarios/S1_moderate/arrival.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:42202 - "GET /outputs/scenarios/S1_moderate/velocity.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:42210 - "GET /outputs/scenarios/S1_moderate/hazard.png HTTP/1.1" 200 OK
+INFO:     169.254.0.22:57634 - "GET /api/scenarios HTTP/1.1" 200 OK
+INFO:     169.254.0.22:57644 - "GET /api/uncertainty HTTP/1.1" 200 OK
+INFO:     169.254.0.22:57654 - "GET /api/verification HTTP/1.1" 200 OK
+INFO:     169.254.0.22:57662 - "GET /api/sph HTTP/1.1" 200 OK
+INFO:     169.254.0.22:57676 - "GET /api/scenario/S1_moderate HTTP/1.1" 200 OK
+INFO:     169.254.0.22:57688 - "POST /api/breach/preview HTTP/1.1" 200 OK
+INFO:     169.254.0.22:57700 - "GET /outputs/scenarios/S1_moderate/roads_cut.geojson HTTP/1.1" 200 OK
+INFO:     169.254.0.22:57702 - "GET /outputs/scenarios/S1_moderate/depth.png HTTP/1.1" 200 OK

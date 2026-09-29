@@ -1,0 +1,13 @@
+[out:json][timeout:180];
+(
+ way["highway"~"motorway|trunk|primary|secondary|tertiary|unclassified|residential|service|track"](22.68,70.75,22.95,71.0);
+ way["building"](22.68,70.75,22.95,71.0);
+ nwr["amenity"~"hospital|clinic|school|college|police|fire_station|place_of_worship|townhall"](22.68,70.75,22.95,71.0);
+ way["railway"="rail"](22.68,70.75,22.95,71.0);
+ way["bridge"="yes"](22.68,70.75,22.95,71.0);
+ node["place"~"city|town|village|hamlet|suburb|neighbourhood"](22.68,70.75,22.95,71.0);
+ way["waterway"~"river|stream|canal"](22.60,70.75,22.95,71.0);
+ way["waterway"="dam"](22.6,70.75,22.95,71.0);
+ way["natural"="water"](22.6,70.75,22.95,71.0);
+);
+out geom;

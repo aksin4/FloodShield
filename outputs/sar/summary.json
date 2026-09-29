@@ -1,0 +1,20 @@
+{
+ "before": "2024-08-21",
+ "after": "2024-09-02",
+ "method": "Sentinel-1 RTC VV before/after ratio",
+ "ratio_thr": 1.8,
+ "flooded_km2": 2.6,
+ "perm_water_km2": 22.84,
+ "png": "s1_flood.png",
+ "bounds": [
+  [
+   22.732134727695886,
+   70.75700124958463
+  ],
+  [
+   22.95284009474635,
+   70.99326402698287
+  ]
+ ],
+ "note": "After image is ~5 days after the 28 Aug 2024 release peak; residual flooding only."
+}

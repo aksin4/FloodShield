@@ -1,0 +1,1 @@
+{'H': 15.299999999999997, 'particles': 1800, 'dx': 1.0, 'runtime_s': 80.3, 'sph_front_speed_ms': 8.8, 'ritter_front_speed_ms': np.float64(24.5), 'ritter_unit_q_m2s': np.float64(55.5)}

@@ -1,0 +1,1209 @@
+{
+ "id": "S3_extreme",
+ "label": "Extreme - 1979-type analogue (wide embankment breach)",
+ "res": 30,
+ "model": {
+  "name": "S3_extreme",
+  "res": 30,
+  "runtime_s": 386.4,
+  "scenario": {
+   "id": "S3_extreme",
+   "label": "Extreme - 1979-type analogue (wide embankment breach)",
+   "wse0": 59.2,
+   "breach_width": 1100,
+   "breach_bottom": 45.0,
+   "tf_h": 0.75,
+   "inflow_peak": 16300.0,
+   "inflow_tp_h": 3.0,
+   "manning": 0.06,
+   "t_end_h": 10.0,
+   "basis": "Breach width 1,100 m ~ 762 m + 365 m embankment lengths lost in 1979; inflow peak 16,300 m3/s ~ observed 1979 flow. Applied to the present-day reservoir; an analogue, not a hindcast of 1979 terrain."
+  },
+  "n_source_cells": 33,
+  "peak_q": 85805,
+  "t_peak_h": 0.75,
+  "released_mcm": 149.52,
+  "v0_mcm": 150.07,
+  "hydrograph": {
+   "t_h": [
+    0.0,
+    0.083,
+    0.167,
+    0.25,
+    0.333,
+    0.417,
+    0.5,
+    0.583,
+    0.667,
+    0.75,
+    0.833,
+    0.917,
+    1.0,
+    1.083,
+    1.167,
+    1.25,
+    1.333,
+    1.417,
+    1.5,
+    1.583,
+    1.667,
+    1.75,
+    1.833,
+    1.917,
+    2.0,
+    2.083,
+    2.167,
+    2.25,
+    2.333,
+    2.417,
+    2.5,
+    2.583,
+    2.667,
+    2.75,
+    2.833,
+    2.917,
+    3.0,
+    3.083,
+    3.167,
+    3.25,
+    3.333,
+    3.417,
+    3.5,
+    3.583,
+    3.667,
+    3.75,
+    3.833,
+    3.917,
+    4.0,
+    4.083,
+    4.167,
+    4.25,
+    4.333,
+    4.417,
+    4.5,
+    4.583,
+    4.667,
+    4.75,
+    4.833,
+    4.917,
+    5.0,
+    5.083,
+    5.167,
+    5.25,
+    5.333,
+    5.417,
+    5.5,
+    5.583,
+    5.667,
+    5.75,
+    5.833,
+    5.917,
+    6.0,
+    6.083,
+    6.167,
+    6.25,
+    6.333,
+    6.417,
+    6.5,
+    6.583,
+    6.667,
+    6.75,
+    6.833,
+    6.917,
+    7.0,
+    7.083,
+    7.167,
+    7.25,
+    7.333,
+    7.417,
+    7.5,
+    7.583,
+    7.667,
+    7.75,
+    7.833,
+    7.917,
+    8.0,
+    8.083,
+    8.167,
+    8.25,
+    8.333,
+    8.417,
+    8.5,
+    8.583,
+    8.667,
+    8.75,
+    8.833,
+    8.917,
+    9.0,
+    9.083,
+    9.167,
+    9.25,
+    9.333,
+    9.417,
+    9.5,
+    9.583,
+    9.667,
+    9.75,
+    9.833,
+    9.917,
+    10.0
+   ],
+   "q": [
+    0.0,
+    452.8,
+    905.6,
+    2781.7,
+    7952.3,
+    16775.7,
+    29430.2,
+    45748.2,
+    65020.0,
+    85805.2,
+    76167.9,
+    65913.3,
+    54080.8,
+    42040.2,
+    30036.7,
+    19916.8,
+    13506.2,
+    10451.1,
+    9423.2,
+    9222.8,
+    9403.2,
+    9722.6,
+    10102.4,
+    10512.0,
+    10937.5,
+    11372.3,
+    11812.7,
+    12256.7,
+    12703.0,
+    13151.0,
+    13600.1,
+    14050.1,
+    14500.6,
+    14951.6,
+    15403.0,
+    15854.6,
+    16306.4,
+    16079.2,
+    15852.1,
+    15625.2,
+    15398.3,
+    15171.5,
+    14944.7,
+    14718.0,
+    14491.4,
+    14264.8,
+    14038.2,
+    13811.6,
+    13585.0,
+    13358.5,
+    13132.0,
+    12905.5,
+    12679.0,
+    12452.5,
+    12226.0,
+    11999.6,
+    11773.1,
+    11546.7,
+    11320.2,
+    11093.8,
+    10867.4,
+    10640.9,
+    10414.5,
+    10188.1,
+    9961.6,
+    9735.2,
+    9508.8,
+    9282.4,
+    9056.0,
+    8829.6,
+    8603.2,
+    8376.7,
+    8150.3,
+    7923.9,
+    7697.5,
+    7471.1,
+    7244.7,
+    7018.3,
+    6791.9,
+    6565.5,
+    6339.1,
+    6112.7,
+    5886.3,
+    5659.9,
+    5433.5,
+    5207.1,
+    4980.7,
+    4754.3,
+    4527.9,
+    4301.5,
+    4075.2,
+    3848.8,
+    3622.4,
+    3396.0,
+    3169.6,
+    2943.2,
+    2716.8,
+    2490.4,
+    2264.0,
+    2037.6,
+    1811.2,
+    1584.8,
+    1358.4,
+    1132.0,
+    905.6,
+    679.3,
+    452.9,
+    226.5,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1
+   ],
+   "wse": [
+    59.2,
+    59.2,
+    59.2,
+    59.2,
+    59.17,
+    59.08,
+    58.9,
+    58.59,
+    58.08,
+    57.3,
+    56.27,
+    55.11,
+    53.69,
+    52.13,
+    50.36,
+    48.6,
+    47.2,
+    46.27,
+    45.76,
+    45.47,
+    45.32,
+    45.23,
+    45.18,
+    45.14,
+    45.11,
+    45.09,
+    45.08,
+    45.07,
+    45.06,
+    45.05,
+    45.04,
+    45.04,
+    45.03,
+    45.03,
+    45.03,
+    45.02,
+    45.02,
+    45.02,
+    45.02,
+    45.02,
+    45.02,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.01,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0,
+    45.0
+   ]
+  }
+ },
+ "flood": {
+  "area_km2": 97.98,
+  "max_depth_m": 24.78,
+  "max_depth_ds_m": 24.78,
+  "p90_depth_m": 9.75,
+  "mean_depth_m": 3.99,
+  "max_velocity_ms": 12.82,
+  "volume_mcm": 391.44,
+  "area_by_depth": {
+   "0.1-0.5 m": 8.36,
+   "0.5-1.5 m": 25.97,
+   "1.5-3 m": 22.89,
+   "> 3 m": 40.77
+  },
+  "area_by_hazard": {
+   "Low (caution)": 14.38,
+   "Moderate (danger for some)": 9.54,
+   "Significant (danger for most)": 9.46,
+   "Extreme (danger for all)": 64.6
+  },
+  "arrival_p50_h": 1.89
+ },
+ "buildings": {
+  "0.1-0.5 m": 2367,
+  "0.5-1.5 m": 6593,
+  "1.5-3 m": 9509,
+  "> 3 m": 8799,
+  "total": 27268,
+  "in_study_area": 95468
+ },
+ "roads": {
+  "total_km": 347.1,
+  "major_km": 48.1,
+  "segments_cut": 1630,
+  "bridges_affected": 26,
+  "named": [
+   {
+    "name": "Morbi Bypass",
+    "km": 14.77,
+    "max_depth": 20.5
+   },
+   {
+    "name": "Navlakhi port road SH-24",
+    "km": 0.57,
+    "max_depth": 3.2
+   },
+   {
+    "name": "Mayur Bridge",
+    "km": 0.52,
+    "max_depth": 13.0
+   },
+   {
+    "name": "Zulta pul (Hanging Bridge)",
+    "km": 0.23,
+    "max_depth": 18.2
+   }
+  ]
+ },
+ "railway_km": 8.85,
+ "facilities": [
+  {
+   "name": "Dr. J. H. Tolia Clinic",
+   "type": "Point",
+   "depth": 4.98,
+   "arrival_h": 1.17,
+   "lat": 22.8135921,
+   "lon": 70.8296662
+  },
+  {
+   "name": "City police line &  A divison police station",
+   "type": "Point",
+   "depth": 4.95,
+   "arrival_h": 1.16,
+   "lat": 22.8132593,
+   "lon": 70.8358361
+  },
+  {
+   "name": "Maheshwari Child Care Hospital",
+   "type": "Point",
+   "depth": 4.69,
+   "arrival_h": 1.15,
+   "lat": 22.8133692,
+   "lon": 70.8314498
+  },
+  {
+   "name": "Masoom Children & Gynec Hospital",
+   "type": "Point",
+   "depth": 4.66,
+   "arrival_h": 1.29,
+   "lat": 22.8119512,
+   "lon": 70.8265458
+  },
+  {
+   "name": "Apple Hospital",
+   "type": "Point",
+   "depth": 4.66,
+   "arrival_h": 1.29,
+   "lat": 22.811848,
+   "lon": 70.826516
+  },
+  {
+   "name": "Aashirvad Children's Hospital",
+   "type": "Point",
+   "depth": 4.34,
+   "arrival_h": 1.2,
+   "lat": 22.814378,
+   "lon": 70.829284
+  },
+  {
+   "name": "Gokul Hospital",
+   "type": "Point",
+   "depth": 4.32,
+   "arrival_h": 1.2,
+   "lat": 22.8144335,
+   "lon": 70.8295314
+  },
+  {
+   "name": "Om Orthopaedic Hospital",
+   "type": "Point",
+   "depth": 4.32,
+   "arrival_h": 1.2,
+   "lat": 22.81458,
+   "lon": 70.82957
+  },
+  {
+   "name": "Radhe Krishna Hospital",
+   "type": "Point",
+   "depth": 4.18,
+   "arrival_h": 1.25,
+   "lat": 22.815488,
+   "lon": 70.829592
+  },
+  {
+   "name": "Dhaval Clinic",
+   "type": "Point",
+   "depth": 4.15,
+   "arrival_h": 1.2,
+   "lat": 22.809183,
+   "lon": 70.829951
+  },
+  {
+   "name": "Aastha Orthopaedic & Eye Hospital",
+   "type": "Point",
+   "depth": 4.14,
+   "arrival_h": 1.28,
+   "lat": 22.811485,
+   "lon": 70.826098
+  },
+  {
+   "name": "Amrutam Hospital",
+   "type": "Point",
+   "depth": 4.14,
+   "arrival_h": 1.22,
+   "lat": 22.814852,
+   "lon": 70.829152
+  },
+  {
+   "name": "Parth Hospital, Morbi",
+   "type": "Point",
+   "depth": 3.94,
+   "arrival_h": 1.23,
+   "lat": 22.815123,
+   "lon": 70.8290063
+  },
+  {
+   "name": "Dr. R. G. Rupala Ortho Hospital - Morbi",
+   "type": "Point",
+   "depth": 3.88,
+   "arrival_h": 1.2,
+   "lat": 22.8136371,
+   "lon": 70.8290331
+  },
+  {
+   "name": "Om Hospital",
+   "type": "Point",
+   "depth": 3.78,
+   "arrival_h": 1.26,
+   "lat": 22.8155419,
+   "lon": 70.829592
+  },
+  {
+   "name": "Vedant Hospital",
+   "type": "Point",
+   "depth": 3.7,
+   "arrival_h": 1.26,
+   "lat": 22.8113557,
+   "lon": 70.8275261
+  },
+  {
+   "name": "Aary Hospital",
+   "type": "Point",
+   "depth": 3.69,
+   "arrival_h": 1.3,
+   "lat": 22.8121676,
+   "lon": 70.8258273
+  },
+  {
+   "name": "Janani Gynec Hospital",
+   "type": "Point",
+   "depth": 3.64,
+   "arrival_h": 1.2,
+   "lat": 22.8135946,
+   "lon": 70.8290716
+  },
+  {
+   "name": "Saumya Skin Clinic",
+   "type": "Point",
+   "depth": 3.58,
+   "arrival_h": 1.22,
+   "lat": 22.814445,
+   "lon": 70.830184
+  },
+  {
+   "name": "Shyam Hospital",
+   "type": "Point",
+   "depth": 3.58,
+   "arrival_h": 1.22,
+   "lat": 22.8144634,
+   "lon": 70.8301971
+  },
+  {
+   "name": "Shubham Hospital",
+   "type": "Point",
+   "depth": 3.5,
+   "arrival_h": 1.27,
+   "lat": 22.8165899,
+   "lon": 70.8297957
+  },
+  {
+   "name": "Radhe ENT Hospital & Laser Centre",
+   "type": "Point",
+   "depth": 3.43,
+   "arrival_h": 1.25,
+   "lat": 22.811283,
+   "lon": 70.827618
+  },
+  {
+   "name": "Dr. Bheela Hospital",
+   "type": "Point",
+   "depth": 3.39,
+   "arrival_h": 1.26,
+   "lat": 22.8157736,
+   "lon": 70.8298044
+  },
+  {
+   "name": "Manglam Hospital, Morbi",
+   "type": "Point",
+   "depth": 3.39,
+   "arrival_h": 1.26,
+   "lat": 22.815682,
+   "lon": 70.829756
+  },
+  {
+   "name": "Ramdev Pir Mandir \u0ab0\u0abe\u0aae\u0aa6\u0ac7\u0ab5 \u0aaa\u0ac0\u0ab0 \u0aae\u0a82\u0aa6\u0abf\u0ab0",
+   "type": "Point",
+   "depth": 3.35,
+   "arrival_h": 1.47,
+   "lat": 22.8228981,
+   "lon": 70.8243586
+  },
+  {
+   "name": "Drashti Hospital, Rajkot",
+   "type": "Point",
+   "depth": 3.35,
+   "arrival_h": 1.2,
+   "lat": 22.8139881,
+   "lon": 70.8299873
+  },
+  {
+   "name": "Jivandeep Hospital, Rajkot",
+   "type": "Point",
+   "depth": 3.35,
+   "arrival_h": 1.31,
+   "lat": 22.8176756,
+   "lon": 70.8287877
+  },
+  {
+   "name": "Devshree Hospital",
+   "type": "Point",
+   "depth": 3.29,
+   "arrival_h": 1.23,
+   "lat": 22.8119972,
+   "lon": 70.8284839
+  },
+  {
+   "name": "Dr. Pethapara Hospital",
+   "type": "Point",
+   "depth": 3.19,
+   "arrival_h": 1.29,
+   "lat": 22.8168772,
+   "lon": 70.8295015
+  },
+  {
+   "name": "Kalrav Hospital",
+   "type": "Point",
+   "depth": 3.16,
+   "arrival_h": 1.27,
+   "lat": 22.81135,
+   "lon": 70.827019
+  },
+  {
+   "name": "Chirag Surgical Hospital",
+   "type": "Point",
+   "depth": 3.03,
+   "arrival_h": 1.3,
+   "lat": 22.81074,
+   "lon": 70.825443
+  },
+  {
+   "name": "Mayaan Maternity Hospital",
+   "type": "Point",
+   "depth": 2.97,
+   "arrival_h": 1.29,
+   "lat": 22.816927,
+   "lon": 70.830183
+  },
+  {
+   "name": "Civil Hospital, Rajkot",
+   "type": "Point",
+   "depth": 2.97,
+   "arrival_h": 1.24,
+   "lat": 22.8159425,
+   "lon": 70.8316013
+  },
+  {
+   "name": "Aayush Multispeciality Hospital",
+   "type": "Point",
+   "depth": 2.96,
+   "arrival_h": 1.28,
+   "lat": 22.816226,
+   "lon": 70.82904
+  },
+  {
+   "name": "Anurag Clinic",
+   "type": "Point",
+   "depth": 2.85,
+   "arrival_h": 1.34,
+   "lat": 22.8193578,
+   "lon": 70.8296621
+  },
+  {
+   "name": "Khushbu Hospital",
+   "type": "Point",
+   "depth": 2.84,
+   "arrival_h": 1.28,
+   "lat": 22.809938,
+   "lon": 70.826527
+  },
+  {
+   "name": "Sanjivani Medical and Nursing Home",
+   "type": "Point",
+   "depth": 2.84,
+   "arrival_h": 1.28,
+   "lat": 22.8099704,
+   "lon": 70.8265084
+  },
+  {
+   "name": "Shivam Hospital",
+   "type": "Point",
+   "depth": 2.84,
+   "arrival_h": 1.23,
+   "lat": 22.814628,
+   "lon": 70.829865
+  },
+  {
+   "name": "Shree Raj Rajeshwari Clinic",
+   "type": "Point",
+   "depth": 2.72,
+   "arrival_h": 1.34,
+   "lat": 22.8190854,
+   "lon": 70.8297303
+  },
+  {
+   "name": "Shubh Hospital & Heart Care",
+   "type": "Point",
+   "depth": 2.67,
+   "arrival_h": 1.33,
+   "lat": 22.817944,
+   "lon": 70.82879
+  },
+  {
+   "name": "Dr. Hemal Patel Orthopaedic Hospital",
+   "type": "Point",
+   "depth": 2.67,
+   "arrival_h": 1.33,
+   "lat": 22.8179044,
+   "lon": 70.828811
+  },
+  {
+   "name": "Ravapar Hanuman Mandir",
+   "type": "Point",
+   "depth": 2.64,
+   "arrival_h": 1.27,
+   "lat": 22.7977652,
+   "lon": 70.8259614
+  },
+  {
+   "name": "Kagathara Surgical Hospital",
+   "type": "Point",
+   "depth": 2.55,
+   "arrival_h": 1.25,
+   "lat": 22.8148621,
+   "lon": 70.8297917
+  },
+  {
+   "name": "Sagar Children Hospital",
+   "type": "Point",
+   "depth": 2.48,
+   "arrival_h": 1.26,
+   "lat": 22.811778,
+   "lon": 70.828398
+  },
+  {
+   "name": "Madhav Hospital - Cardiac & Critical Care",
+   "type": "Point",
+   "depth": 2.46,
+   "arrival_h": 1.28,
+   "lat": 22.8155229,
+   "lon": 70.8291364
+  },
+  {
+   "name": "(unnamed)",
+   "type": "Point",
+   "depth": 2.42,
+   "arrival_h": 1.27,
+   "lat": 22.79712895666667,
+   "lon": 70.82575030666666
+  },
+  {
+   "name": "Dr. Aervadia Clinic",
+   "type": "Point",
+   "depth": 2.42,
+   "arrival_h": 1.35,
+   "lat": 22.819705,
+   "lon": 70.8292049
+  },
+  {
+   "name": "Naklank Hospital",
+   "type": "Point",
+   "depth": 2.34,
+   "arrival_h": 1.27,
+   "lat": 22.812213,
+   "lon": 70.828012
+  },
+  {
+   "name": "Bapa Sitaram Mandir \u0aac\u0abe\u0aaa\u0abe \u0ab8\u0ac0\u0aa4\u0abe\u0ab0\u0abe\u0aae \u0aae\u0a82\u0aa6\u0abf\u0ab0",
+   "type": "Point",
+   "depth": 2.3,
+   "arrival_h": 1.52,
+   "lat": 22.8240414,
+   "lon": 70.819956
+  },
+  {
+   "name": "Nilkanth School",
+   "type": "Point",
+   "depth": 2.21,
+   "arrival_h": 1.25,
+   "lat": 22.8049325,
+   "lon": 70.8273314
+  },
+  {
+   "name": "Sanjeevani Hospital",
+   "type": "Point",
+   "depth": 2.05,
+   "arrival_h": 1.28,
+   "lat": 22.8118784,
+   "lon": 70.8275983
+  },
+  {
+   "name": "(unnamed)",
+   "type": "Point",
+   "depth": 2.01,
+   "arrival_h": 1.3,
+   "lat": 22.822054715384617,
+   "lon": 70.83606373846155
+  },
+  {
+   "name": "Bhadesia Hospital",
+   "type": "Point",
+   "depth": 1.96,
+   "arrival_h": 1.33,
+   "lat": 22.8097508,
+   "lon": 70.8248889
+  },
+  {
+   "name": "Sparsh Children's Hospital",
+   "type": "Point",
+   "depth": 1.89,
+   "arrival_h": 1.28,
+   "lat": 22.8124982,
+   "lon": 70.8283457
+  },
+  {
+   "name": "Dr. Ketan Hindocha",
+   "type": "Point",
+   "depth": 1.67,
+   "arrival_h": 1.31,
+   "lat": 22.8176692,
+   "lon": 70.8313419
+  },
+  {
+   "name": "Anuj Hospital",
+   "type": "Point",
+   "depth": 1.47,
+   "arrival_h": 1.3,
+   "lat": 22.81229,
+   "lon": 70.827563
+  },
+  {
+   "name": "Killol Children Hospital",
+   "type": "Point",
+   "depth": 1.47,
+   "arrival_h": 1.3,
+   "lat": 22.812318,
+   "lon": 70.827666
+  },
+  {
+   "name": "Pooja Children's Hospital",
+   "type": "Point",
+   "depth": 1.27,
+   "arrival_h": 1.33,
+   "lat": 22.810906,
+   "lon": 70.825621
+  },
+  {
+   "name": "Aagman Hospital",
+   "type": "Point",
+   "depth": 1.27,
+   "arrival_h": 1.33,
+   "lat": 22.810685,
+   "lon": 70.825578
+  },
+  {
+   "name": "Janki Hospital",
+   "type": "Point",
+   "depth": 1.27,
+   "arrival_h": 1.33,
+   "lat": 22.8108008,
+   "lon": 70.825737
+  },
+  {
+   "name": "Hanumanji Mandir Ravapar Road \u0ab9\u0aa8\u0ac1\u0aae\u0abe\u0aa8\u0a9c\u0ac0 \u0aae\u0a82\u0aa6\u0abf\u0ab0 \u0ab0\u0ab5\u0abe\u0aaa\u0ab0 \u0ab0\u0acb\u0aa1",
+   "type": "Point",
+   "depth": 0.88,
+   "arrival_h": 1.27,
+   "lat": 22.7928845,
+   "lon": 70.8262247
+  },
+  {
+   "name": "Krishna School",
+   "type": "Point",
+   "depth": 0.86,
+   "arrival_h": 1.29,
+   "lat": 22.7897571,
+   "lon": 70.8262065
+  },
+  {
+   "name": "Krishna Multispeciality Hospital",
+   "type": "Point",
+   "depth": 0.68,
+   "arrival_h": 1.34,
+   "lat": 22.81183,
+   "lon": 70.82718
+  }
+ ],
+ "places": [
+  {
+   "name": "Lilapar",
+   "place": "suburb",
+   "depth": 9.55,
+   "arrival_h": 0.53,
+   "lat": 22.7686237,
+   "lon": 70.8496176
+  },
+  {
+   "name": "(unnamed village)",
+   "place": "village",
+   "depth": 7.23,
+   "arrival_h": 0.62,
+   "lat": 22.7673178,
+   "lon": 70.8446502
+  },
+  {
+   "name": "Morbi",
+   "place": "city",
+   "depth": 5.92,
+   "arrival_h": 1.18,
+   "lat": 22.8176662,
+   "lon": 70.8345928
+  },
+  {
+   "name": "Somaiya Society \u0ab8\u0acb\u0aae\u0ac8\u0aaf\u0abe \u0ab8\u0acb\u0ab8\u0abe\u0aaf\u0a9f\u0ac0",
+   "place": "township",
+   "depth": 4.95,
+   "arrival_h": 1.34,
+   "lat": 22.8223344,
+   "lon": 70.8258369
+  },
+  {
+   "name": "Janak Nagar",
+   "place": "suburb",
+   "depth": 5.27,
+   "arrival_h": 1.38,
+   "lat": 22.822432,
+   "lon": 70.8228604
+  },
+  {
+   "name": "Shyampark \u0ab6\u0acd\u0aaf\u0abe\u0aae\u0aaa\u0abe\u0ab0\u0acd\u0a95",
+   "place": "township",
+   "depth": 4.88,
+   "arrival_h": 1.39,
+   "lat": 22.8178625,
+   "lon": 70.8195578
+  },
+  {
+   "name": "(unnamed village)",
+   "place": "village",
+   "depth": 6.38,
+   "arrival_h": 2.27,
+   "lat": 22.895667,
+   "lon": 70.8108973
+  }
+ ],
+ "people": {
+  "total": 94565,
+  "0.1-0.5 m": 6047,
+  "0.5-1.5 m": 18400,
+  "1.5-3 m": 25103,
+  "> 3 m": 45014,
+  "hazard_significant_or_extreme": 79601
+ },
+ "layers": {
+  "depth": {
+   "png": "depth.png",
+   "bounds": [
+    [
+     22.732134727695886,
+     70.75700124958463
+    ],
+    [
+     22.95284009474635,
+     70.99326402698287
+    ]
+   ]
+  },
+  "arrival": {
+   "png": "arrival.png",
+   "bounds": [
+    [
+     22.732134727695886,
+     70.75700124958463
+    ],
+    [
+     22.95284009474635,
+     70.99326402698287
+    ]
+   ]
+  },
+  "velocity": {
+   "png": "velocity.png",
+   "bounds": [
+    [
+     22.732134727695886,
+     70.75700124958463
+    ],
+    [
+     22.95284009474635,
+     70.99326402698287
+    ]
+   ]
+  },
+  "hazard": {
+   "png": "hazard.png",
+   "bounds": [
+    [
+     22.732134727695886,
+     70.75700124958463
+    ],
+    [
+     22.95284009474635,
+     70.99326402698287
+    ]
+   ]
+  },
+  "frames_bounds": [
+   [
+    22.732134727695886,
+    70.75700124958463
+   ],
+   [
+    22.95284009474635,
+    70.99326402698287
+   ]
+  ]
+ },
+ "frames": [
+  {
+   "png": "frames/f000.png",
+   "t_h": 0.0,
+   "area_km2": 0.0
+  },
+  {
+   "png": "frames/f001.png",
+   "t_h": 0.5,
+   "area_km2": 2.44
+  },
+  {
+   "png": "frames/f002.png",
+   "t_h": 1.0,
+   "area_km2": 22.16
+  },
+  {
+   "png": "frames/f003.png",
+   "t_h": 1.5,
+   "area_km2": 34.97
+  },
+  {
+   "png": "frames/f004.png",
+   "t_h": 2.0,
+   "area_km2": 45.24
+  },
+  {
+   "png": "frames/f005.png",
+   "t_h": 2.5,
+   "area_km2": 53.98
+  },
+  {
+   "png": "frames/f006.png",
+   "t_h": 3.0,
+   "area_km2": 61.51
+  },
+  {
+   "png": "frames/f007.png",
+   "t_h": 3.5,
+   "area_km2": 67.75
+  },
+  {
+   "png": "frames/f008.png",
+   "t_h": 4.0,
+   "area_km2": 72.49
+  },
+  {
+   "png": "frames/f009.png",
+   "t_h": 4.5,
+   "area_km2": 76.36
+  },
+  {
+   "png": "frames/f010.png",
+   "t_h": 5.0,
+   "area_km2": 79.26
+  },
+  {
+   "png": "frames/f011.png",
+   "t_h": 5.5,
+   "area_km2": 79.26
+  },
+  {
+   "png": "frames/f012.png",
+   "t_h": 6.0,
+   "area_km2": 77.22
+  },
+  {
+   "png": "frames/f013.png",
+   "t_h": 6.5,
+   "area_km2": 73.9
+  },
+  {
+   "png": "frames/f014.png",
+   "t_h": 7.0,
+   "area_km2": 69.18
+  },
+  {
+   "png": "frames/f015.png",
+   "t_h": 7.5,
+   "area_km2": 63.01
+  },
+  {
+   "png": "frames/f016.png",
+   "t_h": 8.0,
+   "area_km2": 56.74
+  },
+  {
+   "png": "frames/f017.png",
+   "t_h": 8.5,
+   "area_km2": 51.59
+  },
+  {
+   "png": "frames/f018.png",
+   "t_h": 9.0,
+   "area_km2": 46.61
+  },
+  {
+   "png": "frames/f019.png",
+   "t_h": 9.5,
+   "area_km2": 41.27
+  },
+  {
+   "png": "frames/f020.png",
+   "t_h": 10.0,
+   "area_km2": 35.55
+  }
+ ],
+ "downloads": {
+  "geojson": "flood_extent.geojson",
+  "shp": "flood_extent_S3_extreme_shp.zip",
+  "kml": "flood_extent_S3_extreme.kml",
+  "depth_tif": "max_depth.tif",
+  "hazard_tif": "hazard_rating.tif",
+  "arrival_tif": "arrival_time_h.tif"
+ }
+}

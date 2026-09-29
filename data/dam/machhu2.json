@@ -1,0 +1,21 @@
+{
+  "name": "Machhu-2 Dam",
+  "river": "Machchhu",
+  "state": "Gujarat",
+  "district": "Morbi",
+  "lat": 22.76389, "lon": 70.86583,
+  "type": "Earthfill with masonry/ogee spillway",
+  "frl_m": 57.30,
+  "hfl_m": 59.20,
+  "top_of_dam_m": 63.70,
+  "dead_storage_level_m": 47.24,
+  "lowest_bed_m": 39.62,
+  "gross_capacity_frl_mcm_2021": 92.013,
+  "spillway_max_discharge_cumecs": 26650,
+  "sources": {
+    "capacity_table": "https://nhp.mowr.gov.in/docs/NHP/Sedimentation%20Studies/Report/1062/P34320_WRD_Survey%20report_Machhu%202_Rev%204%20with%20annexures.pdf",
+    "salient_features": "https://guj-nwrws.gujarat.gov.in/showpage.aspx?contentid=2038&lang=english",
+    "history_1979": "https://en.wikipedia.org/wiki/1979_Machchhu_dam_failure"
+  },
+  "eac_2021": [[39.62,0.000],[42.0,0.003],[43.0,0.016],[44.0,0.143],[45.0,0.548],[46.0,1.470],[47.0,2.779],[47.24,3.151],[48.0,4.491],[49.0,6.753],[50.0,9.806],[51.0,13.842],[52.0,19.255],[53.0,26.467],[54.0,35.689],[54.5,41.239],[55.0,47.584],[55.5,55.084],[56.0,63.847],[56.5,73.736],[57.0,84.744],[57.3,92.013],[57.5,97.186],[58.0,111.110],[58.5,126.399],[59.0,143.084],[59.2,150.073]]
+}

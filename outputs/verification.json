@@ -1,0 +1,89 @@
+{
+ "mass_balance": {
+  "S0_release_30m": {
+   "inflow_mcm": 78.2,
+   "stored_mcm": 50.35,
+   "outflow_mcm": 28.02,
+   "error_pct": 0.22
+  },
+  "S0_release_60m": {
+   "inflow_mcm": 78.2,
+   "stored_mcm": 50.54,
+   "outflow_mcm": 27.88,
+   "error_pct": 0.28
+  },
+  "S1_moderate_30m": {
+   "inflow_mcm": 92.23,
+   "stored_mcm": 19.54,
+   "outflow_mcm": 72.8,
+   "error_pct": 0.12
+  },
+  "S1_moderate_60m": {
+   "inflow_mcm": 92.23,
+   "stored_mcm": 18.21,
+   "outflow_mcm": 74.25,
+   "error_pct": 0.25
+  },
+  "S2_severe_30m": {
+   "inflow_mcm": 317.53,
+   "stored_mcm": 84.1,
+   "outflow_mcm": 233.89,
+   "error_pct": 0.14
+  },
+  "S2_severe_60m": {
+   "inflow_mcm": 317.53,
+   "stored_mcm": 83.91,
+   "outflow_mcm": 233.83,
+   "error_pct": 0.06
+  },
+  "S3_extreme_30m": {
+   "inflow_mcm": 411.95,
+   "stored_mcm": 94.29,
+   "outflow_mcm": 322.48,
+   "error_pct": 1.17
+  },
+  "S3_extreme_60m": {
+   "inflow_mcm": 411.95,
+   "stored_mcm": 93.75,
+   "outflow_mcm": 322.67,
+   "error_pct": 1.08
+  }
+ },
+ "convergence": {
+  "S0_release": {
+   "area_60m": 10.57,
+   "area_30m": 10.3,
+   "diff_pct": 2.7
+  },
+  "S1_moderate": {
+   "area_60m": 25.08,
+   "area_30m": 23.81,
+   "diff_pct": 5.3
+  },
+  "S2_severe": {
+   "area_60m": 83.87,
+   "area_30m": 79.25,
+   "diff_pct": 5.8
+  },
+  "S3_extreme": {
+   "area_60m": 100.47,
+   "area_30m": 97.98,
+   "diff_pct": 2.5
+  }
+ },
+ "validation_1979": {
+  "observed": "Morbi flood depth 3.7-9.1 m; low-lying areas flooded within ~20 min of the wave reaching the town; Lilapar (next to the dam) completely inundated",
+  "model_morbi_depth_m": 5.92,
+  "model_morbi_arrival_min": 71,
+  "model_lilapar_depth_m": 9.55,
+  "within_range": true,
+  "res": 30
+ },
+ "sar_check": {
+  "event": "Aug-2024 Machhu-2 gate release (S0) vs Sentinel-1 2 Sep 2024",
+  "sar_pixels_in_corridor": 843,
+  "captured_by_model_pct": 100.0,
+  "sar_pixels_outside_corridor_pct": 70.9,
+  "note": "SAR image is ~5 days after the release peak (residual water only), so this measures hit rate, not false alarms."
+ }
+}

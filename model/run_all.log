@@ -1,0 +1,23 @@
+[S1_moderate] 60 m runtime 60.9 s  area 25.08 km2  bldg 2500
+[S2_severe] 60 m runtime 84.8 s  area 83.87 km2  bldg 24644
+[S3_extreme] 60 m runtime 95.6 s  area 100.47 km2  bldg 28799
+[S1_moderate] 30 m runtime 270.0 s  area 23.81 km2  bldg 2343
+[S2_severe] 30 m runtime 562.2 s  area 79.25 km2  bldg 23107
+[S3_extreme] 30 m runtime 386.4 s  area 97.98 km2  bldg 27268
+[ens 0] B=270 tf=2.86 n=0.066 wse=57.99 Qp=22502 area=38.47
+[ens 1] B=188 tf=2.24 n=0.08 wse=58.09 Qp=18925 area=39.31
+[ens 2] B=302 tf=0.58 n=0.072 wse=56.13 Qp=26264 area=28.23
+[ens 3] B=294 tf=1.68 n=0.046 wse=56.3 Qp=22029 area=25.08
+[ens 4] B=140 tf=1.31 n=0.056 wse=58.51 Qp=16429 area=31.05
+[ens 5] B=119 tf=1.57 n=0.076 wse=59.19 Qp=15137 area=40.38
+[ens 6] B=262 tf=2.45 n=0.069 wse=56.91 Qp=19801 area=29.83
+[ens 7] B=94 tf=0.89 n=0.044 wse=57.29 Qp=10433 area=15.0
+[ens 8] B=228 tf=2.66 n=0.061 wse=58.92 Qp=23320 area=46.48
+[ens 9] B=239 tf=1.91 n=0.048 wse=57.55 Qp=21950 area=30.07
+[ens 10] B=136 tf=2.08 n=0.051 wse=56.46 Qp=12121 area=18.57
+[ens 11] B=340 tf=1.17 n=0.075 wse=56.76 Qp=28668 area=32.64
+[ens 12] B=324 tf=0.99 n=0.059 wse=55.82 Qp=24972 area=25.66
+[ens 13] B=87 tf=0.75 n=0.064 wse=58.47 Qp=11113 area=25.27
+[ens 14] B=161 tf=2.78 n=0.053 wse=55.59 Qp=11221 area=16.89
+[ens 15] B=200 tf=1.96 n=0.041 wse=57.78 Qp=19584 area=26.96
+[ensemble] done {"n": 16, "res": 60, "froehlich": {"b_avg": 140.3, "tf_h": 2.48, "qp_1995": 3995, "volume_mcm": 92.01, "hb": 21.7}, "bounds": [[22.73186863164893, 70.75670575820024], [22.952843340016848, 70.99355370987715]], "png": "probability.png", "area_any_km2": 47.46, "area_p50_km2": 29.99, "area_p90_km2": 17.26, "buildings_p50": 4491, "buildings_any": 14614, "buildings_p90": 1168, "people_p50": 28465, "people_any": 54622, "ranges": {"breach_width": [87, 340], "tf_h": [0.58, 2.86], "manning": [0.041, 0.08], "wse0": [55.59, 59.19]}}
