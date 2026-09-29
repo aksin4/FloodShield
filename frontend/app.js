@@ -1,5 +1,5 @@
 /* FloodShield dashboard */
-const API = '__PORT_8000__'.startsWith('__') ? 'http://localhost:8000' : '__PORT_8000__';
+const API = 'https://floodshield-backend-nyyv.onrender.com';
 const $ = (s) => document.querySelector(s);
 const fmt = (v, d = 0) => (v === null || v === undefined || isNaN(v)) ? '—' : Number(v).toLocaleString('en-IN', { maximumFractionDigits: d, minimumFractionDigits: d });
 const SCEN_COLORS = { S0_release: '#38bdf8', S1_moderate: '#facc15', S2_severe: '#fb923c', S3_extreme: '#ef4444' };
